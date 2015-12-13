@@ -1,7 +1,5 @@
 package org.gotti.wurmonline.clientmods.clientfixes;
 
-import javax.management.RuntimeErrorException;
-
 import org.gotti.wurmunlimited.modloader.classhooks.HookException;
 import org.gotti.wurmunlimited.modloader.classhooks.HookManager;
 import org.gotti.wurmunlimited.modloader.interfaces.PreInitable;

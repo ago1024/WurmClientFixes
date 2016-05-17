@@ -3,7 +3,7 @@ package org.gotti.wurmonline.clientmods.clientfixes;
 import org.gotti.wurmunlimited.modloader.classhooks.HookException;
 import org.gotti.wurmunlimited.modloader.classhooks.HookManager;
 import org.gotti.wurmunlimited.modloader.interfaces.PreInitable;
-import org.gotti.wurmunlimited.modloader.interfaces.WurmMod;
+import org.gotti.wurmunlimited.modloader.interfaces.WurmClientMod;
 
 import javassist.CannotCompileException;
 import javassist.ClassPool;
@@ -14,7 +14,7 @@ import javassist.bytecode.Descriptor;
 import javassist.expr.ExprEditor;
 import javassist.expr.NewArray;
 
-public class ClientFixesMod implements WurmMod, PreInitable {
+public class ClientFixesMod implements WurmClientMod, PreInitable {
 
 	@Override
 	public void preInit() {

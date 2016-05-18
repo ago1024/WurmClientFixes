@@ -4,7 +4,7 @@
 
 	<groupId>org.gotti.wurmunlimited</groupId>
 	<artifactId>clientfixes</artifactId>
-	<version>0.2-SNAPSHOT</version>
+	<version>0.2</version>
 	<packaging>jar</packaging>
 
 	<name>clientfixes</name>
@@ -40,6 +40,14 @@
 	</properties>
 
 	<build>
+		<extensions>
+			<!-- Enabling the use of SSH -->
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-ssh</artifactId>
+				<version>2.10</version>
+			</extension>
+		</extensions>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
